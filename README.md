@@ -1,3 +1,39 @@
+## Start project
+
+`git clone https://github.com/warlight/internet-shop-2020`
+
+`cd internet-shop-2020`
+
+`composer install`
+
+**open UNIX terminal for next command in project folder**
+
+`npm install`
+
+`cp .env.example .env`
+
+`php artisan key:generate`
+
+---
+- create schema for project
+- set settings for you DB into .env:
+	DB_HOST
+	DB_PORT
+    DB_DATABASE
+    DB_USERNAME
+---
+
+`php artisan migrate --seed`
+
+`php artisan serve`
+
+---
+open browser on http://127.0.01:8000
+
+---
+
+*With best wishes*
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
@@ -20,12 +56,6 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
 ## Laravel Sponsors
 
@@ -76,4 +106,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# internet-shop-2019
