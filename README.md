@@ -29,8 +29,9 @@
 
 ---
 open browser on http://127.0.01:8000
-administrator -> accaunt admin@admin.com pass admin
 ---
+
+`administrator -> accaunt admin@admin.com pass admin`
 
 *With best wishes*
 
